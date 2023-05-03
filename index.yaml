@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  elemental-operator:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/experimental: "true"
+      catalog.cattle.io/namespace: cattle-elemental-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/provides-gvr: elemental.cattle.io/v1beta1
+      catalog.cattle.io/release-name: elemental-operator
+    apiVersion: v2
+    appVersion: 1.2.2
+    created: "2023-05-03T09:38:50.619959358+02:00"
+    description: Rancher Elemental Operator
+    digest: 89f1c7b05793270e5ec16f889f137e3b824cde7699c323fd3bd28c31aa29eabe
+    name: elemental-operator
+    urls:
+    - oci://registry.opensuse.org/isv/rancher/elemental/stable/charts/rancher/elemental-operator-chart
+    version: 1.2.2
+generated: "2023-05-03T09:38:50.617819096+02:00"
